@@ -6,7 +6,7 @@ loaded_model=json_file.read()
 json_file.close()
 model=model_from_json(loaded_model)
 model.load_weights("model.h5")
-image=cv2.imread("Y19.JPG")
+image=cv2.imread("Y19.JPG")#change the image to test the image you want
 img=cv2.resize(image,(224,224))
 imag=img.reshape(-1,224,224,3)
 pred=model.predict(imag)
