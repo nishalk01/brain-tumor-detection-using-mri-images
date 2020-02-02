@@ -1,4 +1,4 @@
-# brain-tumor-detection-using-mri-images
+# brain-tumor-recognition-using-mri-images
 
  <h4>Dataset can be obtained from:</link>https://www.kaggle.com/navoneel/brain-mri-images-for-brain-tumor-detection</link></h4>
  <ul>
