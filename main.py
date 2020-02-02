@@ -3,7 +3,7 @@ from keras.models import Model
 from keras.layers import Dense,Flatten,GlobalAveragePooling2D
 from keras.preprocessing.image import ImageDataGenerator
 BS=32
-path="/content/brain_tumor_dataset"
+path="/content/brain_tumor_dataset"#change the location to location of your dataset
 model=VGG16(include_top=False,input_shape=(224,224,3))
 for layer in model.layers:
     layer.trainable=False
